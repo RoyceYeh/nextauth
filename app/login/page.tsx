@@ -18,7 +18,7 @@ const LoginPage = () => {
     })
 
     // 處理登入結果
-    if (result && !result.error) {
+    if (result.error) {
       // 登入失敗，顯示錯誤訊息
       console.error('Sign in error:', result.error)
     } else {
