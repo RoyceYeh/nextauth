@@ -24,13 +24,16 @@ export default function Navbar() {
               <Link href="/">Home</Link>
             </li>
             <li className="md:p-4 py-3 px-0 block">
-              <AuthLinks />
-            </li>
-            <li className="md:p-4 py-3 px-0 block">
               <Link href="/profile">Profile</Link>
             </li>
             <li className="md:p-4 py-3 px-0 block">
-              <Link href="/client">Client</Link>
+              <Link href="/post">Post</Link>
+            </li>
+            <li className="md:p-4 py-3 px-0 block">
+              <Link href="/news">News</Link>
+            </li>
+            <li className="md:p-4 py-3 px-0 block">
+              <AuthLinks />
             </li>
           </ul>
         </nav>

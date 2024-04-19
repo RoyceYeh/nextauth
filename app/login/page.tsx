@@ -17,19 +17,21 @@ const LoginPage = () => {
       redirect: false, // 如果驗證成功，我們將在後面處理重定向
     })
 
-    // 處理登入結果
     if (result && !result.error) {
-      // 登入失敗，顯示錯誤訊息
-      console.error('Sign in error:', result.error)
-    } else {
       // 登入成功，處理重定向
-      // 這裡可以根據你的需求進行重定向，例如跳轉到特定頁面
-      router.push('/') // 這裡示範跳轉到 dashboard 頁面
+      console.log('成功')
+      router.push('/') // 這裡示範跳轉到首頁
+    } else {
+      // 登入失敗，顯示錯誤訊息
+      console.error('Sign in error:', result ? result.error : 'Unknown error')
     }
   }
   return (
-    <div className="w-full max-w-md m-auto mt-20">
+    <div className="w-full max-w-md m-auto mt-32 h-screen">
       <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <div className=" mt-3 mb-3 p-5 rounded-md border-0 text-white bg-neutral-700 font-bold flex justify-center	items-center cursor-pointer	" onClick={() => signIn('github')}>
+          singn in the github
+        </div>
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
             Username
@@ -52,7 +54,6 @@ const LoginPage = () => {
           </a>
         </div>
       </form>
-      <p className="text-center text-gray-500 text-xs">&copy;2020 Acme Corp. All rights reserved.</p>
     </div>
   )
 }
