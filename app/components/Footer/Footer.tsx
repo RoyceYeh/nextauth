@@ -10,25 +10,25 @@ const Footer = () => {
           </a>
           <ul className="flex items-center gap-[5%]  justify-start max-w-[310px] w-[100%] flex-wrap lg:max-w-[100%] lg:w-[40%] lg:flex-nowrap lg:justify-end">
             <li className="w-[45%] pl-5">
-              <a href="#" className="text-lg flex text-[#333] font-bold  items-center	 gap-[6px] pb-1 ">
+              <a href="#" className="text-lg flex text-[#333] font-bold  items-center gap-[10px] pb-1 ">
                 <span className="text-sm bg-gradient-to-br from-[#ef5d35] to-[#ffdd80] bg-clip-text text-transparent	">●</span>
                 NEWS
               </a>
             </li>
             <li className="w-[45%] pl-5">
-              <a href="#" className="text-lg flex text-[#333] font-bold items-center	 gap-[6px] pb-1">
+              <a href="#" className="text-lg flex text-[#333] font-bold items-center	 gap-[10px] pb-1">
                 <span className="text-sm bg-gradient-to-br from-[#ef5d35] to-[#ffdd80] bg-clip-text text-transparent	">●</span>
                 Works
               </a>
             </li>
             <li className="w-[45%] pl-5">
-              <a href="#" className="text-lg flex text-[#333] font-bold items-center	 gap-[6px] pb-1">
+              <a href="#" className="text-lg flex text-[#333] font-bold items-center	 gap-[10px] pb-1">
                 <span className="text-sm bg-gradient-to-br from-[#ef5d35] to-[#ffdd80] bg-clip-text text-transparent	">●</span>
                 About
               </a>
             </li>
             <li className="w-[45%] pl-5">
-              <a href="#" className="text-lg flex text-[#333] font-bold  items-center gap-[6px] pb-1">
+              <a href="#" className="text-lg flex text-[#333] font-bold  items-center gap-[10px] pb-1">
                 <span className="text-sm bg-gradient-to-br from-[#ef5d35] to-[#ffdd80] bg-clip-text text-transparent	">●</span>
                 Contact
               </a>

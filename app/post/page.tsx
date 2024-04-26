@@ -17,7 +17,7 @@ export default function PostPage() {
           <p className="text-sm md:text-base text-green-500 font-bold">04 AUGUST 2023</p>
           <h1 className="font-bold break-normal text-3xl md:text-5xl">Welcome to Ghostwind CSS</h1>
         </div>
-        <div className="container w-full max-w-6xl mx-auto bg-white bg-cover bg-center mt-8 rounded bg-[url('https://source.unsplash.com/collection/1118905/')] pb-[32.5%]"></div>
+        <div className="container w-full max-w-6xl mx-auto bg-white bg-cover bg-center mt-8 rounded bg-[url('https://source.unsplash.com/collection/1118909/')] pb-[32.5%]"></div>
         <div className="max-w-3xl mx-auto">
           <div className="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
             <div className="bg-white relative top-0 -mt-32 p-5 sm:p-10">

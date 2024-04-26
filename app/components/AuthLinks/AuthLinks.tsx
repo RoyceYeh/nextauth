@@ -18,13 +18,14 @@ const AuthLinks = () => {
 
   return (
     <>
-      {console.log(status)}
       {status === 'authenticated' ? (
-        <Link href="/" onClick={() => signOut()}>
+        <Link href="/" onClick={() => signOut()} className="text-2xl md:text-base">
           Logout
         </Link>
       ) : (
-        <Link href="/login">Login</Link>
+        <Link href="/login" className="text-2xl md:text-base">
+          Login
+        </Link>
       )}
     </>
   )
